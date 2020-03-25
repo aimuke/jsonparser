@@ -1,3 +1,16 @@
 # jsonparser
 
-format json data
+json 格式化工具
+
+主要用于在对json数据进行比较时，由于原有json数据格式异常或字段顺序不一致导致难以比较时，通过格式化输出字段顺序一致的数据。便于使用比较工具进行比较。
+
+# 使用方法
+
+1. 将json数据复制到data.json 中
+2. 执行命令
+
+```sh
+go run .
+```
+
+3. 生成的结果将出现在target.json 中。
